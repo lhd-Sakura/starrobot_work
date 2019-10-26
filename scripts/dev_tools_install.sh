@@ -10,7 +10,7 @@ sudo pip install -U platformio
 sudo rm -rf ~/.platformio/
 #wget https://www.pjrc.com/teensy/49-teensy.rules
 sudo cp 49-teensy.rules /etc/udev/rules.d/
-sudo cp 58-stars.rules /etc/udev/rules.d/
+sudo cp 58-starrobot.rules /etc/udev/rules.d/
 sudo cp 558-orbbec-usb.rules /etc/udev/rules.d/
 
 echo "Installation Done"

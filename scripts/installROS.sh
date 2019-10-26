@@ -6,4 +6,6 @@ sudo apt-get install ros-kinetic-desktop-full
 sudo rosdep init
 rosdep update
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+sudo apt-get install python-rosinstall
 source ~/.bashrc
+echo "ROS Installed Successfully"

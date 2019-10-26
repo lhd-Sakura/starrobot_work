@@ -91,4 +91,4 @@ source ~/.bashrc
 
 sudo usermod -aG dialout $USER
 
-echo "ROS Packages Installed Successfully"
+echo "starrobot ROS Packages Installed Successfully"
