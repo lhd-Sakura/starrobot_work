@@ -30,10 +30,10 @@ sudo apt-get install terminator
 
 mkdir ~/starrobot_ws/src -p
 cd ~/starrobot_ws/src
-mkdir depth_camera_p lidar_p serial_p teleop_p slam_p filter_fusion_p starrobot_msgs
+mkdir depth_camera_p lidar_p serial_p teleop_p slam_p filter_fusion_p 
 catkin_init_workspace
 
-cd ~/starrobot_ws/src/starrobot_msgs/
+cd ~/starrobot_ws/src/
 git clone https://github.com/starRureole/starrobot_msgs.git
 
 #cd ~/catkin_ws/src/depth_camera_p
