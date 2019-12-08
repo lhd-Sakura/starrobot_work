@@ -30,6 +30,7 @@ sudo apt-get install -y ros-$ver\-tf2-web-republisher
 sudo apt-get install -y ros-$ver\-web-video-server
 sudo apt-get install -y ros-$ver\-bfl
 sudo apt-get install terminator
+sudo apt-get install python-visual
 
 mkdir ~/starrobot_ws/src -p
 cd ~/starrobot_ws/src
@@ -79,6 +80,9 @@ git clone https://github.com/YDLIDAR/ydlidar_ros.git
 cd ~/starrobot_ws/src/slam_p/
 echo "add hector slam"
 git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+git clone https://github.com/paulbovbel/frontier_exploration.git
+git clone https://github.com/ros/executive_smach.git
+git clone https://github.com/ros-visualization/executive_smach_visualization.git
 
 cd ~/starrobot_ws/src/filter_fusion_p/
 echo "add robot_localization"
