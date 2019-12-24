@@ -15,6 +15,8 @@ sudo apt-get install -y ros-$ver\-amcl
 sudo apt-get install -y ros-$ver\-move_base
 sudo apt-get install -y ros-$ver\-navigation
 sudo apt-get install -y ros-$ver\-map-server
+sudo apt-get install -y ros-$ver\-frontier-exploration
+sudo apt-get install -y ros-$ver\-navigation-stage
 sudo apt-get install -y ros-$ver\-rgbd-launch
 sudo apt-get install -y ros-$ver\-costmap-2d
 sudo apt-get install -y ros-$ver\-camera-info-manager
