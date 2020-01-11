@@ -1,4 +1,4 @@
-KERNEL=="ttyACM?", SUBSYSTEM=="tty", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="0483", MODE="0777" SYMLINK+="starobotbase"
+KERNEL=="ttyACM?", SUBSYSTEM=="tty", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="0483", MODE="0777" SYMLINK+="starrobotbase"
 KERNELS=="3-3.2"KERNEL=="ttyUSB?", SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="0777" SYMLINK+="starrobotbase"
 KERNELS=="3-3.1"KERNEL=="ttyUSB?", SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="0777" SYMLINK+="starrobotlidar"
 KERNEL=="ttyUSB?", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE="0777" SYMLINK+="starobotbase"
@@ -6,5 +6,9 @@ KERNEL=="ttyUSB?", SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}==
 KERNEL=="ttyUSB?", SUBSYSTEM=="tty", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", MODE="0777" SYMLINK+="starobotlidar"
 KERNEL=="video*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="2bc5", ATTRS{idProduct}=="0501", MODE="0777" SYMLINK+="starobotGetCream"
 KERNEL=="video*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1908", ATTRS{idProduct}=="2311", MODE="0777" SYMLINK+="starobotGetCream2"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="0053", MODE="0777" SYMLINK+="starrobotbase"
+KERNEL=="ttyACM?", SUBSYSTEM=="tty", ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9d0f", MODE="0777" SYMLINK+="IMU9DOF"
+
+
 
 
